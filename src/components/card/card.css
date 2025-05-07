@@ -14,8 +14,9 @@ body{
     background-color:hsl(216, 50%, 16%) ;
     width: 400px;
     height: 680px;
-    margin-top: 15%;
+    margin-top: 6%;
     border-radius: 15px;
+    box-shadow: -2px 2px 9px 13px rgba(18, 18, 18, 0.75);
 }
 .Img{
     width: 340px;
