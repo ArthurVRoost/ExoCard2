@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+body{
+    font-family: "Kumbh Sans";
+    margin: 0;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.card{
+    text-align: center;
+    background-color:hsl(216, 50%, 16%) ;
+    width: 400px;
+    height: 600px;
+    margin-top: 15%;
+    border-radius: 15px;
+}
+.Img{
+    width: 340px;
+    height: 340px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
