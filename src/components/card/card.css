@@ -13,7 +13,7 @@ body{
 .card{
     background-color:hsl(216, 50%, 16%) ;
     width: 400px;
-    height: 650px;
+    height: 680px;
     margin-top: 15%;
     border-radius: 15px;
 }
@@ -22,7 +22,35 @@ body{
     height: 340px;
     border-radius: 15px;
     margin-top: 20px;
-    margin-left: 30px;
+    margin-left: 0px;
+    z-index: 0;
+}
+.active{
+   position: relative;
+   width: 340px;
+   height: 340px;
+   margin-top: 20px;
+   margin-left: 30px;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    opacity: 0;
+    background-color:hsla(178, 100%, 50%, 0.518) ;
+    border-radius: 15px;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.icon{
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    opacity: 1;
+    transition: opacity 0.5s;
 }
 
 p{
@@ -65,4 +93,44 @@ h2{
 .div2P{
     color:hsl(215, 23%, 35%) ;
     font-size: 17px;
+}
+.div1H2{
+    margin-top: 50px;
+}
+.div1H2:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.div4{
+    margin-top: 10%;
+    display: flex;
+    border-top: 1px solid hsl(215, 32%, 27%) ;
+    margin-left: 30px;
+    margin-right: 30px;
+    align-items: center;
+}
+.div4Img{
+    margin-top: 5%;
+    width: 50px;
+    height: 50px;
+    margin-left: -10px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.div4P{
+    margin-top: 10%;
+    font-size: 16px;
+    color:hsl(215, 23%, 35%) ;
+}
+
+.div4Span{
+    margin-top: 5%;
+    font-size: 16px;
+    color: white;
+}
+.div4Span:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }

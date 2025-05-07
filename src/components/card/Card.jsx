@@ -3,7 +3,14 @@ export default function Card() {
     return(
         <section>
             <div className='card'>
-                <img className='Img' src="../../src/assets/images/image-equilibrium.jpg" alt="logo equilibrium" />
+                <div className='active'>
+                    <img className='Img' src="../../src/assets/images/image-equilibrium.jpg" alt="logo equilibrium" />
+                    <div className='overlay'>
+                    <img className='icon' src="../../src/assets/images/icon-view.svg" alt="" />
+                    </div>
+                    
+                </div>
+                
                 <div className='div1'>
                     <h2 className='div1H2'>Equilibrium #3429</h2>
                 </div>
